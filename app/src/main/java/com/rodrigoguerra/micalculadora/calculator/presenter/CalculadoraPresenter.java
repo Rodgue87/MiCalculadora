@@ -1,6 +1,6 @@
-package com.rodrigoguerra.micalculadora.presenter;
+package com.rodrigoguerra.micalculadora.calculator.presenter;
 
-public interface MainActivityPresenter {
+public interface CalculadoraPresenter {
 
     void sumar(String number1, String number2);// pertenece al interactor
     void showError(String error);//vista

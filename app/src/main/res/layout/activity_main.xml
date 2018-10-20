@@ -5,35 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".view.MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
 
-    <EditText
-        android:id="@+id/edtNumber1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="number 1"
-/>
 
-    <EditText
-        android:id="@+id/edtNumber2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="number 2" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="149dp"
-        android:text="@string/buton_text"
-        android:background="@color/colorPrimaryDark"
-        android:textColor="@android:color/white"
-        android:onClick="suma"/>
-
-    <TextView
-        android:id="@+id/tvResult"
+        android:id="@+id/options_begin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/result"  />
+        android:text="Opciones"
+        android:theme="@style/RiseButtonDark"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:onClick="goToView"
+        />
 
 </LinearLayout>
